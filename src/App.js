@@ -19,7 +19,7 @@ export default function App() {
   // CREATE A VARIABLE CALLED images THAT LOOPs OVER THE imagesArr AND RETURNS AN <IMG> ELEMENT
   // ASSIGN ALL OF THE PROPERTIES THAT IT NEEDS: src, alt, className, key
   // ALSO ASSIGN AN onClick EVENT THAT CALL THE HANDLE EVENT AND PASSES IT THE IMG URL
-  const images = imagesArr.map((image, index) => {
+  const images = imagesArr.map((image, index) => { //the mapping goes through images by index
     return (
       <img
         src={image.img} //this is the image source from imageData.js
