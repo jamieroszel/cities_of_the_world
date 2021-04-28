@@ -25,7 +25,7 @@ export default function App() {
         src={image.img} //this is the image source from imageData.js
         alt={image.city} //this is the image city from imageData.js. It's set up as the
         className={"thumb"} //this name links to the .thumb element in styles.css. It was a relief to figure this out!
-        key={index}
+        key={index} // this is referring to key/value pair
         onClick={() => handleClick(image.img)} //handleClick comes from where it was declared up above.
       />
     );
