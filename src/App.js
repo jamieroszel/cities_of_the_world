@@ -8,7 +8,7 @@ export default function App() {
   // USE useState TO CREATE  [bigImage, setBigImage]
   // AND SET IT TO THE IMAGE URL OF THE FIRST ELEMENT IN THE ARRAY
 
-  const [bigImage, setBigImage] = useState(imagesArr[0].img);
+  const [bigImage, setBigImage] = useState(imagesArr[0].img); //this starts at the first image in the array
 
   // CREATE A HANDLE CLICK FUNCTION THAT ACCEPTS AN IMAGE URL
   // THE FUNCTION SHOULD CALL setBigImage AND PASS IT THE URL
